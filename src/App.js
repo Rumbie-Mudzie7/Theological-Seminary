@@ -5,7 +5,6 @@ function App() {
   return (
     <>
       <Navbar />
-      <h2 className="text-danger">Hello World</h2>
     </>
   );
 }

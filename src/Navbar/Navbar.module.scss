@@ -1,14 +1,11 @@
-$background-color: green;
 $height: 250px;
-$width: 250px;
 
 .navbar {
-  background: $background-color;
   height: $height;
-  width: $width;
+  
 
   h1 {
-    color: white;
+    color: rgb(242, 242, 41);
   }
 
   p {
