@@ -1,11 +1,11 @@
 import React from 'react';
-import styles from './Navbar.module.scss';
+import Logo from '../assets/placeholder-logo.jpg';
 
 function Navbar() {
   return (
-    <div className={`${styles.navbar}`} id="nav">
-      <h2 className="text-danger">Hello World</h2>
-      <p>Grace is so cute! :</p>
+    <div className="container d-flex">
+      <img src={Logo} alt="logo" width={100} height={100} />
+      <h1 className="text">Welcome To Nicholas Bhengu Theological Seminary</h1>
     </div>
   );
 }
