@@ -13,7 +13,7 @@ const Galary = () => {
         <div className="col-12">
           {
                         images.map((image) => (
-                          <img key={(Math.random * images.length) + 1} src={`${image}`} alt="galary" />
+                          <img key={(Math.random() * images.length) + 1} src={`${image}`} alt="galary" />
                         ))
                     }
         </div>
