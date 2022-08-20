@@ -60,7 +60,7 @@ function App() {
                 </div>
               </div>
             </nav>
-            <div className="middleSectionContent">
+            <div className="middleSectionContent fontStyles">
               <div>
                 <Midsection />
               </div>
