@@ -25,13 +25,20 @@ function Midsection() {
         <h1 className="text-danger">Applications for 2023 are still open</h1>
         <Button2 type="button" className="btn pull-right">Click here</Button2>
       </ClickWrapper>
-      <div className="col-md-1 pt-5">
-        <Twitter className="fa fa-twitter-square" aria-hidden="true" />
-        <Facebook className="fa fa-facebook-square" aria-hidden="true" />
-        <Instagram className="fa fa-instagram" aria-hidden="true" />
-        <Linkedin className="fa fa-linkedin-square" aria-hidden="true" />
+      <div className="col-12 d-flex">
+        <div className="col-md-1 pt-5">
+          <Twitter className="fa fa-twitter-square" aria-hidden="true" />
+          <Facebook className="fa fa-facebook-square" aria-hidden="true" />
+          <Instagram className="fa fa-instagram" aria-hidden="true" />
+          <Linkedin className="fa fa-linkedin-square" aria-hidden="true" />
+        </div>
+        <div className="col-md-10 pt-5">
+          <p>Some text for posts here</p>
+          <p>Some text for posts here</p>
+          <p>Some text for posts here</p>
+        </div>
       </div>
-      <div>
+      <div className="pt-5">
         <p>Hosea 4:6(King James Version) - My people are destroyed for lack of knowledge</p>
       </div>
     </>

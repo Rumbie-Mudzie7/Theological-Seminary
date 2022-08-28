@@ -9,7 +9,7 @@ function Navbar() {
         <div className="col-md-2">
           <img src={Logo} alt="logo" width={100} height={100} />
         </div>
-        <div className="col-md-8 text-center">
+        <div className="col-md-6 text-center">
           <NavHeading className="text">Welcome To Nicholas Bhengu Theological Seminary</NavHeading>
         </div>
       </div>
