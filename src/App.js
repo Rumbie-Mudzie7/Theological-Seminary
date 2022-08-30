@@ -3,7 +3,8 @@ import SideBar from './components/SideBar';
 import Navbar from './components/Navbar';
 import Galary from './components/Galary';
 import Midsection from './components/Midsection';
-import LeftInfo from './components/InfoSection';
+import LeftInfo from './components/InfoSection/menu';
+import RightInfo from './side';
 import './main.css';
 
 function App() {
@@ -28,7 +29,9 @@ function App() {
           <div className="col-12 col-md-4">
             <LeftInfo />
           </div>
-          <div className="col-12 col-md-8" />
+          <div className="col-12 col-md-8">
+            <RightInfo />
+          </div>
         </div>
       </div>
     </>
