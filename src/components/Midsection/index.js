@@ -7,23 +7,22 @@ function Midsection() {
   return (
     <>
       <Wrapper className="menu-section pt-3">
-        <Button type="button" className="btn w-25">ABOUT US</Button>
-        <Button type="button" className="btn w-25">FEES</Button>
-        <Button type="button" className="btn w-25">FORMS</Button>
+        <a href="#info-section1"><Button type="button" className="btn w-25">ABOUT US</Button></a>
+        <a href="#info-section2"><Button type="button" className="btn w-25">FEES</Button></a>
+        <a href="#info-section3"><Button type="button" className="btn w-25">FORMS</Button></a>
         <Bell className="fa fa-bell" aria-hidden="true" />
       </Wrapper>
       <Wrapper className="menu-section">
-        <Button type="button" className="btn w-25">LIBRARY</Button>
-        <Button type="button" className="btn w-25">CONTACT INFO</Button>
-        <Button type="button" className="btn w-25">EVENTS</Button>
+        <a href="#info-section4"><Button type="button" className="btn w-25">LIBRARY</Button></a>
+        <a href="#info-section5"><Button type="button" className="btn w-25">CONTACT INFO</Button></a>
+        <a href="#info-section6"><Button type="button" className="btn w-25">EVENTS</Button></a>
         <a href={SampleFile} target="_blank" rel="noopener noreferrer" download>
           <Bell className="fa fa-download" aria-hidden="true" />
-          {/* Download */}
         </a>
       </Wrapper>
       <ClickWrapper>
-        <h1 className="text-danger">Applications for 2023 are still open</h1>
-        <Button2 type="button" className="btn pull-right">Click here</Button2>
+        <ClickHeading className="pb-3">Applications for 2023 are still open</ClickHeading>
+        <Button2 type="button" className="btn pull-right w-25">Click here</Button2>
       </ClickWrapper>
       <div className="col-12 d-flex">
         <div className="col-md-1 pt-5">
@@ -52,6 +51,9 @@ const Wrapper = styled.div`
 const ClickWrapper = styled.div`
  padding: 5rem;
 `;
+const ClickHeading = styled.h1`
+  color: red;
+`;
 const Button = styled.button`
   background-color: red;
   color: #fff;
@@ -78,19 +80,19 @@ const Button2 = styled.button`
 
 const Twitter = styled.i`
   color: rgb(0, 169, 255);
-  font-size: 2.5rem;
+  font-size: 2.8rem;
  `;
 
 const Facebook = styled.i`
   color: rgb(10, 73, 168);
-  font-size: 2.5rem;
+  font-size: 2.8rem;
  `;
 const Instagram = styled.i`
-  font-size: 2.5rem;
+  font-size: 2.8rem;
  `;
 const Linkedin = styled.i`
   color: rgb(70, 66, 201);
-  font-size: 2.5rem;
+  font-size: 2.8rem;
  `;
 
 export default Midsection;

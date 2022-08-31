@@ -7,9 +7,9 @@ function Navbar() {
     <Nav className="container-fluid border-bottom">
       <div className="row">
         <div className="col-md-2">
-          <img src={Logo} alt="logo" width={100} height={100} />
+          <img src={Logo} alt="logo" width={150} height={150} />
         </div>
-        <div className="col-md-6 text-center">
+        <div className="col-md-6 text-center pt-3">
           <NavHeading className="text">Welcome To Nicholas Bhengu Theological Seminary</NavHeading>
         </div>
       </div>
@@ -18,11 +18,12 @@ function Navbar() {
 }
 
 const Nav = styled.div`
-
+  
 `;
 
 const NavHeading = styled.h1`
   color: rgb(246, 255, 0);
+  font-size: 3rem;
 `;
 
 export default Navbar;

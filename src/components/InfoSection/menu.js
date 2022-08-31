@@ -4,12 +4,12 @@ import styled from 'styled-components';
 function LeftInfo() {
   return (
     <Wrapper className="pt-3">
-      <Button type="button" className="btn w-50">ABOUT US</Button>
-      <Button type="button" className="btn w-50">FEES</Button>
-      <Button type="button" className="btn w-50">FORMS</Button>
-      <Button type="button" className="btn w-50">LIBRARY</Button>
-      <Button type="button" className="btn w-50">CONTACT INFO</Button>
-      <Button type="button" className="btn w-50">EVENTS</Button>
+      <a href="#info-section1"><Button type="button" className="btn w-50">ABOUT US</Button></a>
+      <a href="#info-section2"><Button type="button" className="btn w-50">FEES</Button></a>
+      <a href="#info-section3"><Button type="button" className="btn w-50">FORMS</Button></a>
+      <a href="#info-section4"><Button type="button" className="btn w-50">LIBRARY</Button></a>
+      <a href="#info-section5"><Button type="button" className="btn w-50">CONTACT INFO</Button></a>
+      <a href="#info-section6"><Button type="button" className="btn w-50">EVENTS</Button></a>
       <Bell className="fa fa-bell" aria-hidden="true" />
     </Wrapper>
   );
