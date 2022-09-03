@@ -16,7 +16,7 @@ function AppSection() {
       </ClickWrapper>
       <div className="container pt-5 d-flex">
         <img src={Principal} alt="principal" width={300} height={400} />
-        <Message className="w-50 px-5">
+        <Message className="">
           <h1>Principal Message</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
@@ -29,6 +29,16 @@ function AppSection() {
             quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos
             sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
             recusandae alias error harum maxime adipisci amet laborum.
+          </p>
+          <p className="pt-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+            numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+            optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+            obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+            nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+            tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
+            quia.
           </p>
         </Message>
       </div>
@@ -55,5 +65,6 @@ const Button2 = styled.button`
   border: 1px solid black;
  `;
 const Message = styled.div`
+  padding-left: 8rem;
  `;
 export default AppSection;

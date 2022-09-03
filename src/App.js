@@ -8,6 +8,7 @@ import LeftInfo from './components/InfoSection/menu';
 import RightInfo from './side';
 import './main.css';
 import AppSection from './components/Applications';
+import VerseSection from './components/VerseSection';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         </div>
       </div>
       <AppSection />
+      <VerseSection />
     </>
   );
 }
