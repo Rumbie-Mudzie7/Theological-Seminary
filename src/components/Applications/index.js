@@ -14,7 +14,7 @@ function AppSection() {
         <ClickHeading className="pb-3">Applications for 2023 are still open</ClickHeading>
         <Button2 type="button" className="btn pull-right w-25">Click here</Button2>
       </ClickWrapper>
-      <div className="container pt-5 d-flex">
+      <VerseWrapper className="container d-flex">
         <img src={Principal} alt="principal" width={300} height={400} />
         <Message className="">
           <h1>Principal Message</h1>
@@ -41,11 +41,14 @@ function AppSection() {
             quia.
           </p>
         </Message>
-      </div>
+      </VerseWrapper>
     </>
   );
 }
 
+const VerseWrapper = styled.div`
+  padding-top: 7rem;
+`;
 const ClickWrapper = styled.div`
     background-color: #EFEFEF;
     padding: 5rem;

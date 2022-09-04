@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import styled from 'styled-components';
 
+const VerseWrapper = styled.div`
+  padding-top: 7rem;
+`;
 const StyledPartnersCarousel = styled.div`
     background: #dddddd;
     .carousel {
@@ -37,86 +40,88 @@ const VerseSection = () => {
   };
 
   return (
-    <StyledPartnersCarousel className="section-wrapper">
-      <div className="container">
-        <div className="section-content">
-          <Carousel activeIndex={index} onSelect={handleSelect}>
-            <Carousel.Item>
-              <StyledPartners>
-                <StyledPartnerItem>
-                  <p className="d-block w-100" loading="lazy">
-                    Hosea 4:6(King James Version) - My people are destroyed for lack of knowledge
-                  </p>
-                </StyledPartnerItem>
-                <StyledPartnerItem>
-                  <p className="d-block w-100" loading="lazy">
-                    Hosea 4:6(King James Version) - My people are destroyed for lack of knowledge
-                  </p>
-                </StyledPartnerItem>
-                <StyledPartnerItem>
-                  <p className="d-block w-100" loading="lazy">
-                    Hosea 4:6(King James Version) - My people are destroyed for lack of knowledge
-                  </p>
-                </StyledPartnerItem>
-                <StyledPartnerItem>
-                  <p className="d-block w-100" loading="lazy">
-                    Hosea 4:6(King James Version) - My people are destroyed for lack of knowledge
-                  </p>
-                </StyledPartnerItem>
-              </StyledPartners>
-            </Carousel.Item>
-            <Carousel.Item>
-              <StyledPartners>
-                <StyledPartnerItem>
-                  <p className="d-block w-100" loading="lazy">
-                    Hosea 4:6(King James Version) - My people are destroyed for lack of knowledge
-                  </p>
-                </StyledPartnerItem>
-                <StyledPartnerItem>
-                  <p className="d-block w-100" loading="lazy">
-                    Hosea 4:6(King James Version) - My people are destroyed for lack of knowledge
-                  </p>
-                </StyledPartnerItem>
-                <StyledPartnerItem>
-                  <p className="d-block w-100" loading="lazy">
-                    Hosea 4:6(King James Version) - My people are destroyed for lack of knowledge
-                  </p>
-                </StyledPartnerItem>
-                <StyledPartnerItem>
-                  <p className="d-block w-100" loading="lazy">
-                    Hosea 4:6(King James Version) - My people are destroyed for lack of knowledge
-                  </p>
-                </StyledPartnerItem>
-              </StyledPartners>
-            </Carousel.Item>
-            <Carousel.Item>
-              <StyledPartners>
-                <StyledPartnerItem>
-                  <p className="d-block w-100" loading="lazy">
-                    Hosea 4:6(King James Version) - My people are destroyed for lack of knowledge
-                  </p>
-                </StyledPartnerItem>
-                <StyledPartnerItem>
-                  <p className="d-block w-100" loading="lazy">
-                    Hosea 4:6(King James Version) - My people are destroyed for lack of knowledge
-                  </p>
-                </StyledPartnerItem>
-                <StyledPartnerItem>
-                  <p className="d-block w-100" loading="lazy">
-                    Hosea 4:6(King James Version) - My people are destroyed for lack of knowledge
-                  </p>
-                </StyledPartnerItem>
-                <StyledPartnerItem>
-                  <p className="d-block w-100" loading="lazy">
-                    Hosea 4:6(King James Version) - My people are destroyed for lack of knowledge
-                  </p>
-                </StyledPartnerItem>
-              </StyledPartners>
-            </Carousel.Item>
-          </Carousel>
+    <VerseWrapper>
+      <StyledPartnersCarousel className="section-wrapper">
+        <div className="container">
+          <div className="section-content">
+            <Carousel activeIndex={index} onSelect={handleSelect}>
+              <Carousel.Item>
+                <StyledPartners>
+                  <StyledPartnerItem>
+                    <p className="d-block w-100" loading="lazy">
+                      Hosea 4:6(King James Version) - My people are destroyed for lack of knowledge
+                    </p>
+                  </StyledPartnerItem>
+                  <StyledPartnerItem>
+                    <p className="d-block w-100" loading="lazy">
+                      Hosea 4:6(King James Version) - My people are destroyed for lack of knowledge
+                    </p>
+                  </StyledPartnerItem>
+                  <StyledPartnerItem>
+                    <p className="d-block w-100" loading="lazy">
+                      Hosea 4:6(King James Version) - My people are destroyed for lack of knowledge
+                    </p>
+                  </StyledPartnerItem>
+                  <StyledPartnerItem>
+                    <p className="d-block w-100" loading="lazy">
+                      Hosea 4:6(King James Version) - My people are destroyed for lack of knowledge
+                    </p>
+                  </StyledPartnerItem>
+                </StyledPartners>
+              </Carousel.Item>
+              <Carousel.Item>
+                <StyledPartners>
+                  <StyledPartnerItem>
+                    <p className="d-block w-100" loading="lazy">
+                      Hosea 4:6(King James Version) - My people are destroyed for lack of knowledge
+                    </p>
+                  </StyledPartnerItem>
+                  <StyledPartnerItem>
+                    <p className="d-block w-100" loading="lazy">
+                      Hosea 4:6(King James Version) - My people are destroyed for lack of knowledge
+                    </p>
+                  </StyledPartnerItem>
+                  <StyledPartnerItem>
+                    <p className="d-block w-100" loading="lazy">
+                      Hosea 4:6(King James Version) - My people are destroyed for lack of knowledge
+                    </p>
+                  </StyledPartnerItem>
+                  <StyledPartnerItem>
+                    <p className="d-block w-100" loading="lazy">
+                      Hosea 4:6(King James Version) - My people are destroyed for lack of knowledge
+                    </p>
+                  </StyledPartnerItem>
+                </StyledPartners>
+              </Carousel.Item>
+              <Carousel.Item>
+                <StyledPartners>
+                  <StyledPartnerItem>
+                    <p className="d-block w-100" loading="lazy">
+                      Hosea 4:6(King James Version) - My people are destroyed for lack of knowledge
+                    </p>
+                  </StyledPartnerItem>
+                  <StyledPartnerItem>
+                    <p className="d-block w-100" loading="lazy">
+                      Hosea 4:6(King James Version) - My people are destroyed for lack of knowledge
+                    </p>
+                  </StyledPartnerItem>
+                  <StyledPartnerItem>
+                    <p className="d-block w-100" loading="lazy">
+                      Hosea 4:6(King James Version) - My people are destroyed for lack of knowledge
+                    </p>
+                  </StyledPartnerItem>
+                  <StyledPartnerItem>
+                    <p className="d-block w-100" loading="lazy">
+                      Hosea 4:6(King James Version) - My people are destroyed for lack of knowledge
+                    </p>
+                  </StyledPartnerItem>
+                </StyledPartners>
+              </Carousel.Item>
+            </Carousel>
+          </div>
         </div>
-      </div>
-    </StyledPartnersCarousel>
+      </StyledPartnersCarousel>
+    </VerseWrapper>
   );
 };
 
