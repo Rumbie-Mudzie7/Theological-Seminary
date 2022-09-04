@@ -25,6 +25,7 @@ const StyledPartners = styled.div`
 const StyledPartnerItem = styled.div`
     // width: 240px;
     // height: 100px;
+    font-weight: bold;
 `;
 
 const VerseSection = () => {
@@ -36,27 +37,27 @@ const VerseSection = () => {
 
   return (
     <VerseWrapper>
-      <StyledPartnersCarousel className="section-wrapper pt-4">
+      <StyledPartnersCarousel className="section-wrapper p-5">
         <div className="container">
           <div className="section-content">
             <Carousel activeIndex={index} onSelect={handleSelect}>
               <Carousel.Item>
                 <StyledPartners>
-                  <StyledPartnerItem>
-                    <p className="d-block w-100" loading="lazy">
-                      Hosea 4:6(King James Version) - My people are destroyed for lack of knowledge
-                    </p>
-                  </StyledPartnerItem>
                   {/* <StyledPartnerItem>
                     <p className="d-block w-100" loading="lazy">
                       Hosea 4:6(King James Version) - My people are destroyed for lack of knowledge
                     </p>
                   </StyledPartnerItem> */}
-                  <StyledPartnerItem>
+                  {/* <StyledPartnerItem>
                     <p className="d-block w-100" loading="lazy">
                       Hosea 4:6(King James Version) - My people are destroyed for lack of knowledge
                     </p>
-                  </StyledPartnerItem>
+                  </StyledPartnerItem> */}
+                  {/* <StyledPartnerItem>
+                    <p className="d-block w-100" loading="lazy">
+                      Hosea 4:6(King James Version) - My people are destroyed for lack of knowledge
+                    </p>
+                  </StyledPartnerItem> */}
                   <StyledPartnerItem>
                     <p className="d-block w-100" loading="lazy">
                       Hosea 4:6(King James Version) - My people are destroyed for lack of knowledge
@@ -76,25 +77,20 @@ const VerseSection = () => {
                       Hosea 4:6(King James Version) - My people are destroyed for lack of knowledge
                     </p>
                   </StyledPartnerItem> */}
-                  <StyledPartnerItem>
+                  {/* <StyledPartnerItem>
                     <p className="d-block w-100" loading="lazy">
                       Hosea 4:6(King James Version) - My people are destroyed for lack of knowledge
                     </p>
-                  </StyledPartnerItem>
-                  <StyledPartnerItem>
+                  </StyledPartnerItem> */}
+                  {/* <StyledPartnerItem>
                     <p className="d-block w-100" loading="lazy">
                       Hosea 4:6(King James Version) - My people are destroyed for lack of knowledge
                     </p>
-                  </StyledPartnerItem>
+                  </StyledPartnerItem> */}
                 </StyledPartners>
               </Carousel.Item>
               <Carousel.Item>
                 <StyledPartners>
-                  <StyledPartnerItem>
-                    <p className="d-block w-100" loading="lazy">
-                      Hosea 4:6(King James Version) - My people are destroyed for lack of knowledge
-                    </p>
-                  </StyledPartnerItem>
                   <StyledPartnerItem>
                     <p className="d-block w-100" loading="lazy">
                       Hosea 4:6(King James Version) - My people are destroyed for lack of knowledge
@@ -105,11 +101,16 @@ const VerseSection = () => {
                       Hosea 4:6(King James Version) - My people are destroyed for lack of knowledge
                     </p>
                   </StyledPartnerItem> */}
-                  <StyledPartnerItem>
+                  {/* <StyledPartnerItem>
                     <p className="d-block w-100" loading="lazy">
                       Hosea 4:6(King James Version) - My people are destroyed for lack of knowledge
                     </p>
-                  </StyledPartnerItem>
+                  </StyledPartnerItem> */}
+                  {/* <StyledPartnerItem>
+                    <p className="d-block w-100" loading="lazy">
+                      Hosea 4:6(King James Version) - My people are destroyed for lack of knowledge
+                    </p>
+                  </StyledPartnerItem> */}
                 </StyledPartners>
               </Carousel.Item>
             </Carousel>
