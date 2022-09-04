@@ -6,14 +6,15 @@ import Principal from '../../assets/principle.JPG';
 function AppSection() {
   return (
     <>
-      {/* <div className="col-12 col-md-3"></div> */}
-      <ClickWrapper className="container-fluid col-12 col-md-5">
-        <a href={SampleFile} target="_blank" rel="noopener noreferrer" download>
-          <Bell className="fa fa-download" aria-hidden="true" />
-        </a>
-        <ClickHeading className="pb-3">Applications for 2023 are still open</ClickHeading>
-        <Button2 type="button" className="btn pull-right w-25">Click here</Button2>
-      </ClickWrapper>
+      <Wrapper>
+        <ClickWrapper className="container-fluid col-12 col-md-5">
+          <a href={SampleFile} target="_blank" rel="noopener noreferrer" download>
+            <Bell className="fa fa-download" aria-hidden="true" />
+          </a>
+          <ClickHeading className="pb-3">Applications for 2023 are still open</ClickHeading>
+          <Button2 type="button" className="btn pull-right w-25">Click here</Button2>
+        </ClickWrapper>
+      </Wrapper>
       <VerseWrapper className="container d-flex">
         <img src={Principal} alt="principal" width={300} height={400} />
         <Message className="">
@@ -46,6 +47,9 @@ function AppSection() {
   );
 }
 
+const Wrapper = styled.div`
+  padding-top: 6rem;
+`;
 const VerseWrapper = styled.div`
   padding-top: 7rem;
 `;
