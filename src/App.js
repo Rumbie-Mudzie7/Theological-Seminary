@@ -10,6 +10,7 @@ import './main.css';
 import AppSection from './components/Applications';
 import VerseSection from './components/VerseSection';
 import Gallery from './components/GallerySection';
+import Footer from './components/Footer/footer';
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
       <AppSection />
       <VerseSection />
       <Gallery />
+      <Footer />
     </>
   );
 }

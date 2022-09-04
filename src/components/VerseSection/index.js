@@ -36,7 +36,7 @@ const VerseSection = () => {
   };
 
   return (
-    <VerseWrapper>
+    <VerseWrapper className="container-fluid">
       <StyledPartnersCarousel className="section-wrapper p-5">
         <div className="container">
           <div className="section-content">

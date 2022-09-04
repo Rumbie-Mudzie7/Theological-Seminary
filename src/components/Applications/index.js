@@ -62,7 +62,7 @@ const ClickHeading = styled.h1`
 `;
 const Bell = styled.i`
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 3rem;
   color: #000;
 `;
 const Button2 = styled.button`
