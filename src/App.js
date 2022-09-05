@@ -15,38 +15,43 @@ import Footer from './components/Footer/footer';
 function App() {
   return (
     <>
-      <Navbar />
-      <MidSection className="container-fluid">
-        <div className="row">
-          <div className="col-12 col-md-3">
-            <SideBar />
+      <Wrapper>
+        <Navbar />
+        <MidSection className="container-fluid">
+          <div className="row">
+            <div className="col-12 col-md-3">
+              <SideBar />
+            </div>
+            <div className="col-12 col-md-6">
+              <Midsection />
+            </div>
+            <div className="col-12 col-md-3">
+              <Galary />
+            </div>
           </div>
-          <div className="col-12 col-md-6">
-            <Midsection />
+        </MidSection>
+        <VerseWrapper className="container-fluid pt-5">
+          <div className="row">
+            <div className="col-12 col-md-4">
+              <LeftInfo />
+            </div>
+            <div className="col-12 col-md-8">
+              <RightInfo />
+            </div>
           </div>
-          <div className="col-12 col-md-3">
-            <Galary />
-          </div>
-        </div>
-      </MidSection>
-      <VerseWrapper className="container-fluid pt-5">
-        <div className="row">
-          <div className="col-12 col-md-4">
-            <LeftInfo />
-          </div>
-          <div className="col-12 col-md-8">
-            <RightInfo />
-          </div>
-        </div>
-      </VerseWrapper>
-      <AppSection />
-      <VerseSection />
-      <Gallery />
-      <Footer />
+        </VerseWrapper>
+        <AppSection />
+        <VerseSection />
+        <Gallery />
+        <Footer />
+      </Wrapper>
     </>
   );
 }
 
+const Wrapper = styled.div`
+  font-family: 'Poppins', sans-serif;
+`;
 const MidSection = styled.div`
   background-color: #EFEFEF;
 `;

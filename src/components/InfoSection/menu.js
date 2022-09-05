@@ -31,7 +31,7 @@ const Button = styled.button`
 `;
 const Bell = styled.i`
   cursor: pointer;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #000;
   margin-left: 8rem;
 `;
