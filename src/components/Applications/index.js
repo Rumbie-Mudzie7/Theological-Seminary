@@ -54,8 +54,8 @@ const VerseWrapper = styled.div`
   padding-top: 7rem;
 `;
 const ClickWrapper = styled.div`
-    background-color: #EFEFEF;
-    padding: 5rem;
+  background-color: #fff;
+  padding: 5rem;
 `;
 const ClickHeading = styled.h1`
   color: red;

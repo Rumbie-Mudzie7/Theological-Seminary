@@ -16,7 +16,7 @@ function App() {
   return (
     <>
       <Wrapper>
-        <Navbar />
+        <Navbar className="col-lg-12 col-md-6 col-sm-12 col-xs-12" />
         <MidSection className="container-fluid">
           <div className="row">
             <div className="col-12 col-md-3">
@@ -51,9 +51,10 @@ function App() {
 
 const Wrapper = styled.div`
   font-family: 'Poppins', sans-serif;
+  background-color: #EFEFEF;
 `;
 const MidSection = styled.div`
-  background-color: #EFEFEF;
+  // background-color: #fff;
 `;
 const VerseWrapper = styled.div`
   padding-top: 7rem;

@@ -1,7 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
 import 'font-awesome/css/font-awesome.min.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faTwitter,
+  faFacebook,
+  faInstagram,
+  faLinkedin,
+  faSkype,
+} from '@fortawesome/free-brands-svg-icons';
 import SampleFile from '../../sampleFile.pdf';
+import './style.scss';
 
 function Midsection() {
   return (
@@ -26,10 +35,21 @@ function Midsection() {
       </ClickWrapper>
       <div className="col-12 d-flex">
         <div className="col-md-1 pt-5">
-          <Twitter className="fa fa-twitter-square" aria-hidden="true" />
-          <Facebook className="fa fa-facebook-square" aria-hidden="true" />
-          <Instagram className="fa fa-instagram" aria-hidden="true" />
-          <Linkedin className="fa fa-linkedin-square" aria-hidden="true" />
+          <Twitter href="https://twitter.com/NbtsAog">
+            <FontAwesomeIcon icon={faTwitter} />
+          </Twitter>
+          <Facebook href="https://web.facebook.com/Nicholas-Bhengu-Theological-Seminary-106268578893146">
+            <FontAwesomeIcon icon={faFacebook} />
+          </Facebook>
+          <Instagram href="https://Instagram.com/nbts">
+            <FontAwesomeIcon icon={faInstagram} />
+          </Instagram>
+          <Linkedin href=" https://www.linkedin.com/in/Nicholas-bhegu-22a59024b">
+            <FontAwesomeIcon icon={faLinkedin} />
+          </Linkedin>
+          <Skype href="https://twitter.com/NbtsAog">
+            <FontAwesomeIcon icon={faSkype} />
+          </Skype>
         </div>
         <div className="col-md-10 pt-5">
           <p>Some text for posts here</p>
@@ -58,11 +78,13 @@ const Button = styled.button`
   background-color: red;
   color: #fff;
   margin: 1rem;
-  font-weight: bold;
+  font-weight: bold;{
 
-  .btn:hover{
-    color: rgb(255, 255, 255);
+  &:hover {
+    opacity: 1;
+    text-transform: uppercase;
   }
+}
 `;
 
 const Bell = styled.i`
@@ -78,19 +100,23 @@ const Button2 = styled.button`
   border: 1px solid black;
  `;
 
-const Twitter = styled.i`
+const Twitter = styled.a`
   color: rgb(0, 169, 255);
   font-size: 2.8rem;
  `;
-
-const Facebook = styled.i`
+const Facebook = styled.a`
   color: rgb(10, 73, 168);
   font-size: 2.8rem;
  `;
-const Instagram = styled.i`
+const Instagram = styled.a`
+  color: rgb(229, 25, 89);
   font-size: 2.8rem;
  `;
-const Linkedin = styled.i`
+const Linkedin = styled.a`
+  color: rgb(70, 66, 201);
+  font-size: 2.8rem;
+ `;
+const Skype = styled.a`
   color: rgb(70, 66, 201);
   font-size: 2.8rem;
  `;
