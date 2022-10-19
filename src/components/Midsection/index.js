@@ -78,13 +78,7 @@ const Button = styled.button`
   background-color: red;
   color: #fff;
   margin: 1rem;
-  font-weight: bold;{
-
-  &:hover {
-    opacity: 1;
-    text-transform: uppercase;
-  }
-}
+  font-weight: bold;
 `;
 
 const Bell = styled.i`
