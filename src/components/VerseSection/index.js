@@ -6,7 +6,7 @@ const VerseWrapper = styled.div`
   padding-top: 7rem;
 `;
 const StyledPartnersCarousel = styled.div`
-    background: #dddddd;
+    background-color: #dddddd;
     .carousel {
         .carousel-indicators {
             margin-bottom: 0;

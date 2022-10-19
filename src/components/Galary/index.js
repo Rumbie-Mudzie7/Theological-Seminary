@@ -17,9 +17,9 @@ const Galary = () => {
                             key={(Math.random() * images.length) + 1}
                             src={`${image}`}
                             alt="galary"
-                            className="p-2"
-                            width={300}
-                            height={200}
+                            className="p-2 w-100"
+                            // width={300}
+                            // height={200}
                           />
                         ))
                     }
