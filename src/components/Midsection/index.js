@@ -10,7 +10,7 @@ import {
   faSkype,
 } from '@fortawesome/free-brands-svg-icons';
 import SampleFile from '../../sampleFile.pdf';
-import './style.scss';
+import './style.module.scss';
 
 function Midsection() {
   return (
@@ -31,7 +31,7 @@ function Midsection() {
       </Wrapper>
       <ClickWrapper>
         <ClickHeading className="pb-3">Applications for 2023 are still open</ClickHeading>
-        <Button2 type="button" className="btn pull-right w-25">Click here</Button2>
+        <Button2 type="button" className="btn pull-right w-50">Click here</Button2>
       </ClickWrapper>
       <div className="col-12 d-flex">
         <div className="col-md-1 pt-5">
