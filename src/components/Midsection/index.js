@@ -34,7 +34,7 @@ function Midsection() {
         <Button2 type="button" className="btn pull-right w-50">Click here</Button2>
       </ClickWrapper>
       <div className="col-12 d-flex">
-        <div className="col-md-1 pt-5">
+        <div className="col-md-1 pt-5 px-5">
           <Twitter href="https://twitter.com/NbtsAog">
             <FontAwesomeIcon icon={faTwitter} />
           </Twitter>
@@ -51,11 +51,11 @@ function Midsection() {
             <FontAwesomeIcon icon={faSkype} />
           </Skype>
         </div>
-        <div className="col-md-10 pt-5">
+        <Posts className="col-md-10">
           <p>Some text for posts here</p>
           <p>Some text for posts here</p>
           <p>Some text for posts here</p>
-        </div>
+        </Posts>
       </div>
       <div className="pt-5">
         <p>Hosea 4:6(King James Version) - My people are destroyed for lack of knowledge</p>
@@ -96,23 +96,28 @@ const Button2 = styled.button`
 
 const Twitter = styled.a`
   color: rgb(0, 169, 255);
-  font-size: 2.8rem;
+  font-size: 2.5rem;
  `;
 const Facebook = styled.a`
   color: rgb(10, 73, 168);
-  font-size: 2.8rem;
+  font-size: 2.5rem;
  `;
 const Instagram = styled.a`
   color: rgb(229, 25, 89);
-  font-size: 2.8rem;
+  font-size: 2.5rem;
  `;
 const Linkedin = styled.a`
   color: rgb(70, 66, 201);
-  font-size: 2.8rem;
+  font-size: 2.5rem;
  `;
 const Skype = styled.a`
   color: rgb(70, 66, 201);
-  font-size: 2.8rem;
+  font-size: 2.5rem;
+ `;
+const Posts = styled.div`
+  color: red;
+  padding-top: 170px;
+  padding-left: 160px;
  `;
 
 export default Midsection;
