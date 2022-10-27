@@ -13,9 +13,9 @@ import {
 function Footer() {
   return (
     <>
-      <Wrapper className="container-fluid bg-secondary">
+      <Wrapper className="container-fluid bg-secondary p-2">
         <Social className="container d-flex">
-          <div className="col 12 col-md-5 pb-4">
+          <div className="col 12 col-md-5 pb-5">
             <Twitter href="https://twitter.com/NbtsAog">
               <FontAwesomeIcon icon={faTwitter} />
             </Twitter>
@@ -34,11 +34,20 @@ function Footer() {
           </div>
           <div className="col 12 col-md-3">
             <Contact>Contact Number</Contact>
-            <p>+271000000000</p>
+            <p>+27163661013</p>
           </div>
           <div className="col 12 col-md-4">
             <Address>Physical Address</Address>
-            <p>The Address</p>
+            <br />
+            <Address2>
+              <strong>
+                <p>1922 Regatta Road,</p>
+                <p>Henley on klip,</p>
+                <p>Assemblies of God Centre,</p>
+                <p>PO Box 623, Henley on Klip, SA</p>
+                <a href="E-mail:nbtc.aog@gmail.com">E-mail:nbtc.aog@gmail.com</a>
+              </strong>
+            </Address2>
           </div>
         </Social>
 
@@ -58,8 +67,12 @@ const Contact = styled.h5`
   font-weight: bold;
 `;
 const Address = styled.h5`
- color: rgb(246, 255, 0);
- font-weight: bold;
+  color: rgb(246, 255, 0);
+  font-weight: bold;
+  line-height: 0.5;
+`;
+const Address2 = styled.div`
+  line-height: 0.5;
 `;
 const Twitter = styled.a`
   color: rgb(0, 169, 255);
