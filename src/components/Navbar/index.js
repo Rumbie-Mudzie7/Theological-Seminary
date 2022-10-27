@@ -1,15 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
 import Logo from '../../assets/placeholder-logo.jpg';
+import './Navbar.module.scss';
 
 function Navbar() {
   return (
     <Nav className="container-fluid border-bottom">
       <div className="row">
-        <div className="col-md-2">
-          <img src={Logo} alt="logo" width={150} height={150} />
+        <div className="nav col-md-2">
+          <img src={Logo} alt="logo" width={130} height={130} />
         </div>
-        <div className="col-md-8 text-center pt-3">
+        <div className="nav col-md-10 text-center">
           <NavHeading className="text">Welcome To Nicholas Bhengu Theological Seminary</NavHeading>
         </div>
       </div>
@@ -23,8 +24,11 @@ const Nav = styled.div`
 `;
 
 const NavHeading = styled.h1`
+  position: relative;
+  top: 12px;
+  right: 50px;
   color: rgb(246, 255, 0);
-  font-size: 3rem;
+  font-size: 2.8rem;
   font-weight: bold;
 `;
 
