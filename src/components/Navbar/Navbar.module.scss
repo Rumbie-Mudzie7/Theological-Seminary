@@ -1,14 +1,25 @@
-$height: 250px;
+// $height: 250px;
 
-.navbar {
-  height: $height;
+// .navbar {
+//   height: $height;
   
 
-  h1 {
-    color: rgb(242, 242, 41);
-  }
+//   h1 {
+//     color: rgb(242, 242, 41);
+//   }
 
-  p {
-    color: pink;
-  }
+//   p {
+//     color: pink;
+//   }
+// }
+
+@media screen and (max-width: 768px) {
+    .nav {
+       margin: auto;
+       padding-top: 15rem;
+    
+        // .text {
+        //     padding-left: 5rem;
+        // }
+    }
 }
