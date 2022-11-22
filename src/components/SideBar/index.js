@@ -1,4 +1,5 @@
 import React from 'react';
+import styled from 'styled-components';
 import Principal from '../../assets/principle2.JPG';
 
 function SideBar() {
@@ -11,16 +12,17 @@ function SideBar() {
         As some of you might know, our modus operandi is training theological or
         Bible students by extension. This means that our school goes where
         people are, as opposed to asking students to come where the school is.
-        In the past years we have been able to reach places outside South
-        Africa, like Swaziland, Mozambique; as well as regions inside our
-        country, like South Coast of KZN, North Coast of KZN, Zululand, Giyani
-        in Limpopo, Port Elizabeth and East London in the Eastern Cape as well
-        as Cape Town in the Western Cape. We thank the Lord that in the last
-        quarter of 2017 we were able to open a base for students in the
-        Transkei, one of the biggest regions in the Eastern Cape.
       </p>
+      <Button2 type="button" className="btn w-50">Read More</Button2>
     </div>
   );
 }
+
+const Button2 = styled.button`
+  background-color: rgb(246, 255, 0);
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: 1px solid black;
+ `;
 
 export default SideBar;
