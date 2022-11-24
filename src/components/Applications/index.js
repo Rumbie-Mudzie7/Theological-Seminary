@@ -26,7 +26,7 @@ function AppSection() {
       </Wrapper>
       <VerseWrapper className="container d-flex">
         <img src={Principal} alt="principal" width={300} height={400} />
-        <Message className="">
+        <Message className="" id="message-section">
           <h1>Principal Message</h1>
           <p>
             As some of you might know, our modus operandi is training
