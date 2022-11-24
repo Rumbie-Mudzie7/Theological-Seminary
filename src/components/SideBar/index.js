@@ -13,7 +13,7 @@ function SideBar() {
         Bible students by extension. This means that our school goes where
         people are, as opposed to asking students to come where the school is.
       </p>
-      <Button2 type="button" className="btn w-50">Read More</Button2>
+      <a href="#message-section"><Button2 type="button" className="btn w-75">Read More</Button2></a>
     </div>
   );
 }
