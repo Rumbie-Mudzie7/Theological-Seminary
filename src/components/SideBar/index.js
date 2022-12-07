@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Principal from '../../assets/principle2.JPG';
+import Principal from '../../assets/principle2.jpg';
 
 function SideBar() {
   return (
