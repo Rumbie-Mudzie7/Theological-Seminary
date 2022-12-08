@@ -1,8 +1,8 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import Pics1 from '../../assets/school4.jpg';
-import Pics2 from '../../assets/school5.jpg';
-import Pics3 from '../../assets/school6.jpg';
+import Pics1 from '../../assets/school4.JPG';
+import Pics2 from '../../assets/school5.JPG';
+import Pics3 from '../../assets/school6.JPG';
 
 function Gallery() {
   return (
