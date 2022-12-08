@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import Logo from '../../assets/nbts-logo.png';
 import Logo2 from '../../assets/africa-logo.png';
-// import './Navbar.module.scss';
 import './Navbar.module.scss';
 
 function Navbar() {

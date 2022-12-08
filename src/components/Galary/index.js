@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import styled from 'styled-components';
+import styled from 'styled-components';
 import school1 from '../../assets/school1.JPG';
 import school8 from '../../assets/school8.JPG';
 import school3 from '../../assets/school3.JPG';
@@ -14,7 +14,7 @@ const Galary = () => {
     <div className="container pt-3">
       <div className="row">
         <div className="d-flex justify-content-center">
-          <Link to="/gallery" className="btn btn-danger">GALLERY</Link>
+          <Link to="/gallery"><Button type="button" className="btn">GALLERY</Button></Link>
           {/* <a href="#info-section1"><Button type="button" className="btn">GALLERY</Button></a> */}
         </div>
         <div className="col-12 pt-2">
@@ -36,12 +36,12 @@ const Galary = () => {
   );
 };
 
-// const Button = styled.button`
-//   background-color: red;
-//   color: #fff;
-//   margin: 1rem;
-//   font-weight: bold;
-//   width: 10rem;
-// `;
+const Button = styled.button`
+  background-color: red;
+  color: #fff;
+  margin: 1rem;
+  font-weight: bold;
+  width: 10rem;
+`;
 
 export default Galary;
