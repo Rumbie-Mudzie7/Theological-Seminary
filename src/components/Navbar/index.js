@@ -11,7 +11,7 @@ function Navbar() {
         <FirstDiv className="col-md-2">
           <img src={Logo} alt="logo" id="logo" width={120} height={120} />
         </FirstDiv>
-        <div className="nav col-md-8 text-center">
+        <div className="nav1 col-md-8 text-center">
           <NavHeading className="text">Welcome To Nicholas Bhengu Theological Seminary</NavHeading>
         </div>
         <SecondDiv className="nav col-md-2">
