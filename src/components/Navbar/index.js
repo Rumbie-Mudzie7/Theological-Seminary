@@ -2,20 +2,20 @@ import React from 'react';
 import styled from 'styled-components';
 import Logo from '../../assets/nbts-logo.png';
 import Logo2 from '../../assets/africa-logo.png';
-import './Navbar.module.scss';
+import style from '../../assets/scss/navbar.module.scss';
 
 function Navbar() {
   return (
-    <Nav className="container-fluid border-bottom">
-      <div className="row">
-        <FirstDiv className="col-md-2">
-          <img src={Logo} alt="logo" id="logo" width={120} height={120} />
+    <Nav className="container border-bottom">
+      <div className={`row ${style.topNavbar}`}>
+        <FirstDiv className="col-4 col-md-2">
+          <img src={Logo} alt="logo" id="logo" className={`${style.logo} w-100 img-fluid`} />
         </FirstDiv>
-        <div className="nav1 col-md-8 text-center">
-          <NavHeading className="text">Welcome To Nicholas Bhengu Theological Seminary</NavHeading>
+        <div className={`${style.nav1} m-auto col-4 col-md-8 d-flex text-center align-items-center`}>
+          <NavHeading>Welcome To Nicholas Bhengu Theological Seminary</NavHeading>
         </div>
-        <SecondDiv className="nav col-md-2">
-          <img src={Logo2} alt="logo" width={130} height={120} />
+        <SecondDiv className="col-4 col-md-2">
+          <img src={Logo2} alt="logo" className={`${style.logo} w-100 img-fluid`} />
         </SecondDiv>
       </div>
     </Nav>
@@ -27,7 +27,6 @@ const Nav = styled.div`
 `;
 
 const FirstDiv = styled.div`
-  padding-left: 4rem;
   @keyframes swing {
     0%, 100% { transform: rotate(-30deg); }
     20% {transform:scale(.95);}
@@ -44,9 +43,6 @@ const SecondDiv = styled.div`
 `;
 
 const NavHeading = styled.h1`
-  position: relative;
-  top: 12px;
-  right: 50px;
   color: #0B69AE;
   font-size: 2.8rem;
   font-weight: bold;
