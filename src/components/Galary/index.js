@@ -2,10 +2,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import school1 from '../../assets/school1.JPG';
-import school8 from '../../assets/school8.JPG';
-import school3 from '../../assets/school3.JPG';
-import school5 from '../../assets/school5.JPG';
+import school1 from '../../assets/school1.jpg';
+import school8 from '../../assets/school8.jpg';
+import school3 from '../../assets/school3.jpg';
+import school5 from '../../assets/school5.jpg';
 
 const Galary = () => {
   const images = [school1, school8, school3, school5];
