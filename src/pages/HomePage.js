@@ -12,7 +12,7 @@ import Footer from '../components/Footer/footer';
 function HomePage() {
   return (
     <Wrapper>
-      <MidSection className="container-fluid">
+      <MidSection className="container">
         <div className="row">
           <div className="col-12 col-md-3">
             <SideBar />
