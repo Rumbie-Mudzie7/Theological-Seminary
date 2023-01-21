@@ -1,11 +1,14 @@
 import React from 'react';
 import InputField from '../components/InputField/index';
+import InfoPageHeader from '../components/InfoPageHeader/index';
 
 const InforFormPage = () => (
   <div className="container">
-    <h1>Information Form</h1>
+    <InfoPageHeader />
     <form>
-      <InputField inputFieldName="FirstName" />
+      <InputField inputFieldName="Tittle" />
+      <InputField inputFieldName="Surname" />
+      <InputField inputFieldName="Full Name" />
     </form>
   </div>
 );
