@@ -13,6 +13,10 @@ const InforFormPage = () => (
         <InputField inputFieldId="full_name" inputFieldType="text" inputFieldName="Full Name" />
         <TextArea textAreaID="address" textAreaTitle="Home Address" />
         <InputField inputFieldId="email" inputFieldType="email" inputFieldName="Email" />
+        <div className="d-flex">
+          <InputField inputFieldId="dateOfBirth" inputFieldType="date" inputFieldName="Date Of Birth" />
+          <InputField inputFieldId="cell_phone_number" inputFieldType="text" inputFieldName="Cell Phone Number" />
+        </div>
       </fieldset>
     </form>
   </div>
