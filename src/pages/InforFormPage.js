@@ -1,6 +1,7 @@
 import React from 'react';
-import InputField from '../components/InputField/index';
-import InfoPageHeader from '../components/InfoPageHeader/index';
+import InputField from '../components/InputField';
+import InfoPageHeader from '../components/InfoPageHeader';
+import TextArea from '../components/TextArea';
 
 const InforFormPage = () => (
   <div className="container">
@@ -9,6 +10,7 @@ const InforFormPage = () => (
       <InputField inputFieldName="Tittle" />
       <InputField inputFieldName="Surname" />
       <InputField inputFieldName="Full Name" />
+      <TextArea textAreaID="address" textAreaTitle="Home Address" />
     </form>
   </div>
 );
